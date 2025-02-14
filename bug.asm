@@ -1,0 +1,1 @@
+mov eax, [ebx+ecx*4] ;This line attempts to access memory using an address calculation. If ecx is too large, it could cause a segmentation fault. This would lead to an unexpected program crash.
