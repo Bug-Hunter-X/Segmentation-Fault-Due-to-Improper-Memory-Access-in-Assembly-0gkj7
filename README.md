@@ -1,0 +1,1 @@
+This repository demonstrates a common error in assembly programming: segmentation faults due to incorrect memory access. The `bug.asm` file contains code that may cause a segmentation fault if the value of `ecx` is too large. The `bugSolution.asm` file provides a corrected version of the code, showcasing best practices for memory access to prevent such errors.
