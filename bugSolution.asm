@@ -1,0 +1,1 @@
+mov ecx, [some_variable] ;Check the value of ecx before using it to access memory.cmp ecx, 100 ;Compare ecx with a safe upper limit jge handle_error ;Jump to error handler if ecx is too large mov eax, [ebx+ecx*4] ;Access memory only if ecx is within bounds handle_error: ;Handle the error appropriately, such as by printing an error message or exiting the program
